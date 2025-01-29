@@ -1,0 +1,529 @@
+:root {
+    --color1: #fff;
+    --color2: #081E33;
+    --color3: #99B3CC;
+    --color4: #547899;
+    --color5: #DAEDFF;
+    --color6: #244666;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--color1);
+    font-family: "Poppins";
+}
+
+h1 {
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+}
+
+/* Default design nav - Inicio */
+#nav__MarkI {
+    background-color: var(--color2);
+    font-size: 1em;
+    font-weight: 400;
+    position: sticky;
+    top: 0;
+
+    z-index: 1;
+}
+
+.nav__a__tittle__MarkI {
+    color: var(--color1);
+    text-decoration: none;
+    top: 15px;
+    margin-left: 40px;
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 8px;
+    display: none;
+    
+    border: 2px solid var(--color2);
+    border-radius: 500px;
+    transition: all ease-in-out .5s;
+}
+
+.nav__a__tittle__MarkI:hover {
+    border: 2px solid var(--color1);
+    border-radius: 500px;
+}
+
+.nav__ul__MarkI {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__ul__li__markI {
+    margin: 0 5em;
+    display: inline;
+    text-decoration: none;
+}
+
+.label__check__input {
+    font-size: 1.8em;
+    float: right;
+    color: var(--color1);
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.nav__ul__MarkI a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+.nav__ul__li__markI__animation {
+    position: relative;
+}
+
+.nav__ul__li__markI__animation a::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--color1);
+    transition: ease-out 0.5s;
+}
+
+.nav__ul__li__markI__animation a:hover::after {
+    width: 100%;
+}
+
+.nav__ul__MarkI a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.nav__ul__MarkI a img:hover {
+    transform: scale(1.2);
+} 
+
+.nav__ul__MarkI li:last-child a {
+    padding: 20px;
+    background-color: var(--color1);
+    color: #000;
+    font-weight: 800;
+    font-size: 1em;
+    border: 2px solid var(--color1);
+    border-radius: 500px;
+    transition: all ease-out 0.5s;
+}
+
+.nav__ul__MarkI li:last-child a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 500px;
+    border: 2px solid var(--color1);
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background-color: var(--color5);
+}
+
+/* Default design nav - Final */
+
+
+/* Default design Header - Inicio  */
+
+#header__MarkI {
+    color: var(--color2);
+    font-weight: 400;
+}
+
+.header__container__MarkI {
+    width: 100%;
+    padding: 8em 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.header__container__MarkI img {
+    width: 320px;
+    border-radius: 500px;
+    border: 1px solid var(--color2);
+    box-shadow: 2px 4px 15px 10px #1111;
+    transition: all ease-in-out .5s;
+}
+
+.header__container__MarkI img:hover {
+    transform: scale(1.2);
+    transform-origin: center;
+    z-index: 0;
+}
+
+.header__container__text__MarkI {
+    margin-left: 8%;
+    text-align: center;
+}
+
+.header__container__text__MarkI h1 {
+    font-size: 2.6em;
+    letter-spacing: 6px;
+}
+
+.header__container__text__MarkI h1::after {
+    content: '';
+    position: absolute; 
+    width: 90%;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%);
+    background-color: var(--color2);
+    height: 1.5px;
+}
+
+.header__container__text__MarkI p {
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+
+/* Default design Header - Final  */
+
+
+/* Default design Nosotros - Inicio  */
+
+#Nosotros {
+    color: var(--color2);
+    background-color: var(--color5);
+}
+.nosotros__container__MarkI {
+    width: 100%;
+    padding:  8em 12em;
+    padding-bottom: 5em;
+    display: inline-block;
+}
+
+.nosotros__container__MarkI h2 {
+    font-weight: 200;
+    font-size: 1.8em;
+}
+
+.nosotros__div1__MarKI {
+    text-align: start;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 10%;
+}
+
+.nosotros__div1__MarKI hr {
+    background-color: var(--color2);
+    border: none;
+    height: 1.2px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nosotros__div1__MarKI img {
+    width: 360px;
+    border-radius: 500px;
+    box-shadow: 3px 2px 15px 2px var(--color6);
+    transition: all ease-in-out .5s;
+}
+
+.nosotros__div1__MarKI img:hover {
+    transform: scale(1.2);
+    z-index: 0;
+}
+
+.nosotros__div__top__MarkI {
+    padding-right: 10em;
+}
+
+.nosotros__div__top__MarkI p {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 25px;
+    padding-bottom: 8px;
+}
+
+.nosotros__div2__MarKI hr {
+    background-color: var(--color2);
+    border: none;
+    height: 1px;
+
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.nosotros__div__container__MarkI {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.nostros__card__MarkI {
+    padding: 22px;
+    border: 2px solid var(--color2);
+    background-color: var(--color1);
+    border-radius: 20px;
+    border: 4px 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+
+    transition: all ease-out .5s;
+}
+
+.nostros__card__MarkI:hover {
+    transform: scale(1.1);
+}
+
+.nostros__card__MarkI h3 {
+    font-weight: 800;
+    font-size: 10px;
+    letter-spacing: 1px;
+}
+
+.nostros__card__MarkI img {
+    border-radius: 500px;
+    border: 2px solid #000;
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Default design Nosotros - Final  */
+
+
+/* Default design Catalogo__MainPage - Inicio  */
+
+#Catalogo__MarkI {
+    color: var(--color2);
+}
+
+.catalogo__container__MarkI {
+    width: 100%;
+    padding: 5em 3em;
+}
+
+.catalogo__div1__MarkI {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.catalogo__div1__MarkI img {
+    width: 150px;
+    transform: rotate(340deg);
+    transition: all ease-in-out .5s;
+}
+
+.catalogo__div1__MarkI img:hover {
+    transform: scale(1.2);
+}
+
+.catalogo__div1__MarkI hr {
+    width: 85%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 1px;
+    background-color: var(--color2);
+    border: none;
+}
+
+.catalogo__div2__MarkI {
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo__div2__MarkI h2 {
+    text-align: center;
+    font-size: 2.2em;
+    font-weight: 200;
+}
+
+.catalogo__div2__MarkI hr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.catalogo__cards__Pag__MarkI {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo__cards__Pag__MarkI img {
+    width: 250px;
+    border-bottom: 2px solid var(--color2);
+    transition: all ease-out .5s;
+}
+
+.catalogo__cards__Pag__MarkI img:hover {
+    transform: scale(90%);
+}
+  
+.catalogo__card___MarkI {
+    margin: 0 100px;
+    text-align: center;
+}
+
+.catalogo__card___MarkI p {
+    padding: 0 3%;
+    font-size: 13px;
+    padding-top: 10px;
+    text-align: start;
+    letter-spacing: 1px;
+}
+
+.catalogo__card___a___MarkI {
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: var(--color6);
+    transition: all ease-in-out .5s;
+}
+
+.catalogo__card___a___MarkI a {
+    color: var(--color1);
+    font-size: 1em;
+    text-decoration: none;
+}
+  
+.catalogo__card___a___MarkI:hover{
+    transform: scale(0.9);
+}
+
+.catalogo__link__MarkI {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0px 30%;
+    margin-top: 50px;
+    padding: 20px;
+    background: linear-gradient(#000, var(--color2));
+    border-radius: 50px;
+    transition: all ease-in .6s;
+}
+
+.catalogo__link__MarkI a {
+    font-weight: 200;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+.catalogo__link__MarkI:hover {
+    transform: scale(90%);
+    border: 1px solid var(--color2);
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
+}
+
+/* Default design Catalogo__MainPage - Final  */
+
+/* Default design footer - Inicio */
+
+#footer__MarkI {
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 20px;
+    font-weight: 200;
+}
+
+.footer__p__MarkI {
+    font-size: 10px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main___ul__footer__MarkI {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16%;
+    margin-bottom: 2%;
+}
+
+.sub__li__footer__MarkI ul {
+    list-style: none;
+}
+
+.sub__li__footer__MarkI p {
+    font-size: 1em;
+    padding: 0 0 10px 0;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.sub__li__footer__MarkI li {
+    padding: 4px 0;
+}
+
+.sub__li__footer__MarkI img {
+    width: 150px;
+    border-radius: 500px;
+    transition: all ease-in .5s;
+}
+
+.sub__li__footer__MarkI img:hover {
+    transform: scale(1.2);
+}
+
+.sub__li__footer__MarkI:first-child li a {
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color1);
+    padding: 0 15px;
+}
+
+.sub__li__footer__MarkI:first-child li i {
+    transition: all ease-in-out .3s;
+}
+
+.sub__li__footer__MarkI:first-child li i:hover {
+    color: var(--color5);
+    transform: scale(1.2);
+}
+
+.sub__li__footer__MarkI:first-child li a:hover {
+    color: var(--color5);
+}
+
+.sub__li__footer__MarkI:last-child li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color1);
+    transition: all ease-in-out .3s;
+}
+
+.sub__li__footer__MarkI:last-child li a:hover {
+    font-size: 15px;
+    color: var(--color5);
+}
+
+/* Default design footer - Final */
+

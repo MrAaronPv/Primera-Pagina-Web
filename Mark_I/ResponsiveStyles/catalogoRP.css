@@ -1,0 +1,198 @@
+/* Tittle Responsive desgin */
+
+@media (max-width: 1024px) {
+    .tittle__catalogo {
+        width: 100%;
+        justify-content: space-evenly;
+        text-align: center;
+        padding: 20px 0;
+    }
+    .tittle__catalogo h1 {
+        font-size: 2em;
+    }
+    .tittle__catalogo img {
+        width: 130px;
+    }
+}
+
+@media (max-width: 768px) {
+    .tittle__catalogo {
+        padding: 10px 0;
+    }
+    .tittle__catalogo h1 {
+        font-size: 1.5em;
+    }
+    .tittle__catalogo img {
+        width: 130px;
+    }
+}
+
+@media (max-width: 465px) {
+    .tittle__catalogo {
+        padding: 10px 0;
+    }
+    .tittle__catalogo h1 {
+        font-size: 1.1em;
+    }
+    .tittle__catalogo img {
+        width: 100px;
+    }
+}
+
+/* Catalogo Responsive desgin */
+
+@media (max-width: 1024px) {
+    .catalogo-1__container__MarkI {
+        height: 500px;
+    }
+    .catalogo-1__container__info {
+        display: inline-block;
+    }
+    .catalogo-1__tittle__info h2 {
+        font-size: 1.5em;
+    }
+    .catalogo-1__img__info img {
+        width: 40%;
+    }
+    .catalogo-1__text__info {
+        padding: 0 2em;
+    }
+    .catalogo-1__info__first {
+        font-size: 13px;
+    }
+    .catalogo-1__info__second {
+        font-size: 13px;
+    }
+    .catalogo-1__text__info a {
+        padding: 13px;
+        font-size: 1em;
+    }
+    .catalogo-1__product__arrow i {
+        font-size: 1.3em;
+    }
+    .catalogo-1__controller__MarkI {
+        padding: 40px 10px;
+    }
+    .catalogo-1__controller__MarkI a {
+        font-size: 12px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 768px) {
+    .catalogo-1__container__MarkI {
+        height: 400px;
+    }
+    .catalogo-1__container__info {
+        display: inline-block;
+    }
+    .catalogo-1__tittle__info h2 {
+        font-size: 1.2em;
+    }
+    .catalogo-1__img__info img {
+        width: 40%;
+    }
+    .catalogo-1__text__info {
+        padding: 0 2em;
+    }
+    .catalogo-1__info__first {
+        font-size: 11px;
+    }
+    .catalogo-1__info__second {
+        font-size: 11px;
+    }
+    .catalogo-1__text__info a {
+        padding: 13px;
+        bottom: 5px;
+        font-size: 1em;
+    }
+    .catalogo-1__product__arrow i {
+        font-size: 1em;
+    }
+    .catalogo-1__controller__MarkI {
+        padding: 40px 10px;
+    }
+    .catalogo-1__controller__MarkI a {
+        font-size: 11px;
+        padding: 8px;
+    }
+}
+
+@media (max-width: 465px) {
+    .catalogo-1__container__MarkI {
+        height: 400px;
+    }
+    /* ñ  */
+    .catalogo-1__product__MarkI{
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .catalogo-1__container__info {
+       display: inline-block;
+       width: 100%;
+       height: 100%;
+    }
+    .catalogo-1__tittle__info h2 {
+        text-align: center;
+        font-size: 14px;
+    }
+    .catalogo-1__products__info {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    .catalogo-1__img__info {
+        width: 100%;
+        height: 30%;
+    }
+    .catalogo-1__img__info img {
+        width: 30%;
+    }
+    .catalogo-1__text__info {
+        position: relative;
+        width: 100%;
+        height: 43%;
+        display: flex;
+        align-items: normal;
+        justify-content: space-around;
+        line-height: 25px;
+        padding: 1em;
+    }
+    .catalogo-1__info__first {
+        text-align: start;
+        font-size: 11px;
+    }
+    .catalogo-1__info__second {
+        text-align: end;
+        font-size: 11px;
+    }
+    .catalogo-1__text__info a {
+        padding: 8px;
+        border-radius: 50px;
+        width: 100%;
+        letter-spacing: 2px;
+        font-size: 13px;
+    }
+    .catalogo-1__controller__MarkI {
+        padding: 40px 10px;
+    }
+    .catalogo-1__controller__MarkI {
+        width: 100%;
+        display: block;
+        padding: 20px;
+    }    
+    .catalogo-1__controller__MarkI a {
+        text-align: center;
+        display: block;
+        font-size: 11px;
+        margin: 6px 3px;
+        padding: 8px;
+    }
+    .catalogo-1__controller__MarkI a:hover {
+        transform: scale(0.9);
+    }
+    .catalogo-1__product__arrow {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,237 @@
+/* Form Responsive desgin */
+
+@media (max-width: 1280px) {
+    .container__Formulario__MarkI {
+        padding: 5em 10em;
+    }
+    .container__Formulario__MarkI h2 {
+        font-size: 1.8em;
+    }
+    .container__Formulario__MarkI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .container__formulario__div__MarkI {
+        margin: 0 25%;
+        padding: 50px;
+    }
+    .container__formulario__div__MarkI h3 {
+        font-size: 1.2em;
+        border-radius: 20px;
+    }
+    .container__formulario__text__MarkI label {
+        font-size: 13px;
+    }
+    .container__formulario__text__MarkI textarea {
+        padding: 15px;
+    }
+    .container__formulario__text__MarkI button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container__Formulario__MarkI {
+        padding: 5em;
+    }
+}
+
+@media (max-width: 968px) {
+    .container__Formulario__MarkI {
+        padding: 5em;
+    }
+    .container__Formulario__MarkI h2 {
+        font-size: 1.3em;
+    }
+    .container__Formulario__MarkI hr {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .container__formulario__div__MarkI {
+        margin: 0 18%;
+        padding: 50px;
+    }
+    .container__formulario__div__MarkI h3 {
+        font-size: 1.1em;
+        border-radius: 20px;
+    }
+    .container__formulario__text__MarkI label {
+        font-size: 13px;
+    }
+    .container__formulario__text__MarkI textarea {
+        padding: 15px;
+    }
+    .container__formulario__text__MarkI button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 550px) {
+    .container__Formulario__MarkI {
+        padding: 2em;
+    }
+    .container__Formulario__MarkI h2 {
+        text-align: center;
+        font-size: 1.3em;
+    }
+    .container__Formulario__MarkI hr {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .container__formulario__div__MarkI {
+        margin: 0;
+        padding: 18px;
+    }
+    .container__formulario__div__MarkI img {
+        display: none;
+    }
+    .container__formulario__div__MarkI h3 {
+        font-size: 1em;
+        border-radius: 20px;
+    }
+    .container__formulario__text__MarkI label {
+        font-size: 13px;
+    }
+    .container__formulario__text__MarkI textarea {
+        padding: 15px;
+    }
+    .container__formulario__text__MarkI button {
+        font-size: 14px;
+    }
+}
+
+
+/* Encuentranos Responsive desgin */
+
+@media (max-width: 1280px) {
+    .container__Encuentranos__MarkI {
+        padding: 5em;
+    }
+    .container__Encuentranos__MarkI hr {
+        border: 1px solid var(--color2);
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .cotainer__encuentranos__div__MarkI h2 {
+        font-weight: 200;
+        font-size: 1.8em;
+    }
+    .cotainer__encuentranos__div__MarkI img {
+        width: 100px;
+    }
+    .container__encuentranos__content__MarkI {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container__encuentranos__content__MarkI p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .container__encuentranos__content__MarkI iframe {
+        margin: 20px 0;
+        width: 500px;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container__Encuentranos__MarkI {
+        padding: 5em;
+    }
+    .container__Encuentranos__MarkI hr {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .cotainer__encuentranos__div__MarkI h2 {
+        font-weight: 200;
+        font-size: 1.5em;
+    }
+    .cotainer__encuentranos__div__MarkI img {
+        width: 90px;
+    }
+    .container__encuentranos__content__MarkI {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container__encuentranos__content__MarkI p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .container__encuentranos__content__MarkI iframe {
+        margin: 20px 0;
+        width: 400px;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 968px) {
+    .container__Encuentranos__MarkI {
+        padding: 5em;
+    }
+    .cotainer__encuentranos__div__MarkI:last-child {
+        display: block;
+    }
+    .container__Encuentranos__MarkI hr {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .cotainer__encuentranos__div__MarkI h2 {
+        font-weight: 200;
+        font-size: 1.3em;
+    }
+    .cotainer__encuentranos__div__MarkI img {
+        width: 90px;
+    }
+    .container__encuentranos__content__MarkI {
+        padding: 10px 0;
+    }
+    .container__encuentranos__content__MarkI p {
+        font-size: 15px;
+        letter-spacing: 2px;
+    }
+    .container__encuentranos__content__MarkI iframe {
+        margin: 20px 0;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 465px) {
+    .container__Encuentranos__MarkI {
+        padding: 3em;
+    }
+    .cotainer__encuentranos__div__MarkI h2 {
+        font-weight: 200;
+        font-size: 1.2em;
+    }
+    .cotainer__encuentranos__div__MarkI img {
+        width: 70px;
+    }
+    .container__encuentranos__content__MarkI p {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+    .container__encuentranos__content__MarkI iframe {
+        margin: 10px 0;
+        width: 100%;
+        height: 50vh;
+    }
+}
+
+/* Encuentranos Responsive desgin */
+
+@media (max-width: 1280px) {
+
+}
+
+@media (max-width: 1024px) {
+
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 768px) {
+
+}

@@ -1,0 +1,354 @@
+:root {
+    --color1: #fff;
+    --color2: #081E33;
+    --color3: #99B3CC;
+    --color4: #547899;
+    --color5: #DAEDFF;
+    --color6: #244666;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--color1);
+    font-family: "Poppins";
+}
+
+/* Nav Catalogo Start  */
+
+
+/* Tittle Catalogo Start */
+.tittle__catalogo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.tittle__catalogo h1 {
+    font-size: 2.3em;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.tittle__catalogo img {
+    transform: rotate(340deg);
+    border-radius: 500px;
+    width: 150px;
+    transition: all ease-in-out .5s;
+}
+
+.tittle__catalogo img:hover {
+    transform: scale(1.1);
+}
+/* Tittle Catalogo End */
+
+
+/* Nav Catalogo End  */
+#nav__MarkI {
+    position: static;
+}
+
+#catalogo-1__MarkI {
+    width: 100%;
+}
+
+#catalogo-2__MarkI {
+    width: 100%;
+}
+
+#catalogo-3__MarkI {
+    width: 100%;
+}
+
+#catalogo-4__MarkI {
+    width: 100%;
+}
+
+.catalogo-1__container__MarkI {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    scroll-behavior: smooth;
+}
+
+.catalogo-1__product__MarkI{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.catalogo-1__container__info {
+   display: inline-block;
+   width: 100%;
+   height: 100%;
+}
+
+.catalogo-1__tittle__info {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogo-1__tittle__info h2 {
+    font-size: 1.8em;
+    font-weight: 200;
+    letter-spacing: 8px;
+}
+
+.catalogo-1__products__info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.catalogo-1__img__info {
+    position: relative;
+    width: 40%;
+    height: 80%;
+    overflow: hidden;
+}
+
+.catalogo-1__img__info img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    width: 45%;
+
+    transition: all ease-in-out .8s;
+    z-index: 1;
+}
+
+.catalogo-1__img__info img:hover {
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.catalogo-1__text__info {
+    position: relative;
+    width: 56%;
+    height: 70%;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    line-height: 25px;
+    padding: 0 3em;
+}
+
+.catalogo-1__info__first {
+    font-weight: 800;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.catalogo-1__info__second {
+    font-weight: 200;
+    font-size: 1em;
+    letter-spacing: 1px;
+}
+
+.catalogo-1__text__info a {
+    position: absolute;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--color2);
+    border: 2px solid var(--color2);
+    color: var(--color1);
+    padding: 16px;
+    border-radius: 50px;
+    width: 100%;
+    left: 0;
+    bottom: 10%;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+
+    transition: all ease-out .5s;
+    z-index: 1;
+}
+
+.catalogo-1__text__info a:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+/* Week products  */
+
+#producto1-1 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto2-1 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto3-1 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto4-1 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto5-1 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+/* Men products  */
+
+#producto1-2 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto2-2 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto3-2 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto4-2 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto5-2 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+/* Women products  */
+
+#producto1-3 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto2-3 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto3-3 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto4-3 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto5-3 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+/* Kid products  */
+
+#producto1-4 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto2-4 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto3-4 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto4-4 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+#producto5-4 {
+    border-top: 2px solid var(--color2);
+    border-bottom: 2px solid var(--color2);
+}
+
+
+
+.catalogo-1__product__text {
+    color: var(--color2);
+}
+
+.catalogo-1__product__arrow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.catalogo-1__product__arrow i {
+    color: var(--color2);
+    font-size: 1.5em;
+}
+.catalogo-1__product__arrow i:hover {
+    cursor: pointer;
+}
+
+.catalogo-1__controller__MarkI {
+    width: 100%;
+    background: linear-gradient(var(--color1), var(--color5));
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.catalogo-1__controller__MarkI a {
+    text-decoration: none;
+    color: var(--color1);
+    font-size: 14px;
+    font-weight: 200;
+    letter-spacing: 1px;
+    background-color: var(--color2);
+    border: 2px solid var(--color2);
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease-in-out .5s;
+}
+
+.catalogo-1__controller__MarkI a:hover {
+    background-color: var(--color1);
+    color: var(--color2);
+    font-weight: 800;
+    transform: scale(1.2);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

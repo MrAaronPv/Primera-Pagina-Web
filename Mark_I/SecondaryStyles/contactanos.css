@@ -1,0 +1,458 @@
+:root {
+    --color1: #fff;
+    --color2: #081E33;
+    --color3: #99B3CC;
+    --color4: #547899;
+    --color5: #DAEDFF;
+    --color6: #244666;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: var(--color1);
+    font-family: "Poppins";
+}
+
+h1 {
+    font-weight: 200;
+    display: inline-block;
+    position: relative;
+}
+
+/* Default design nav - Inicio */
+#nav__MarkI {
+    background-color: var(--color2);
+    font-size: 1em;
+    font-weight: 400;
+    position: sticky;
+    top: 0;
+
+    z-index: 2;
+}
+
+.nav__a__tittle__MarkI {
+    color: var(--color1);
+    text-decoration: none;
+    top: 15px;
+    margin-left: 40px;
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 8px;
+    display: none;
+    
+    border: 2px solid var(--color2);
+    border-radius: 500px;
+    transition: all ease-in-out .5s;
+}
+
+.nav__a__tittle__MarkI:hover {
+    border: 2px solid var(--color1);
+    border-radius: 500px;
+}
+
+.nav__ul__MarkI {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__ul__li__markI {
+    margin: 0 5em;
+    display: inline;
+    text-decoration: none;
+}
+
+.label__check__input {
+    font-size: 1.8em;
+    float: right;
+    color: var(--color1);
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.nav__ul__MarkI a {
+    color: var(--color1);
+    text-decoration: none;
+}
+
+.nav__ul__li__markI__animation {
+    position: relative;
+}
+
+.nav__ul__li__markI__animation a::after {
+    content: ' ';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -3px;
+    left: 0;
+    background-color: var(--color1);
+    transition: ease-out 0.5s;
+}
+
+.nav__ul__li__markI__animation a:hover::after {
+    width: 100%;
+}
+
+.nav__ul__MarkI a img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    transition: all ease 0.5s;
+}
+
+.nav__ul__MarkI a img:hover {
+    transform: scale(1.2);
+} 
+
+.nav__ul__MarkI li:last-child a {
+    padding: 20px;
+    background-color: var(--color1);
+    color: #000;
+    font-weight: 800;
+    font-size: 1em;
+    border: 2px solid var(--color1);
+    border-radius: 500px;
+    transition: all ease-out 0.5s;
+}
+
+.nav__ul__MarkI li:last-child a:hover {
+    background-color: var(--color2);
+    color: var(--color1);
+    border-radius: 500px;
+    border: 2px solid var(--color1);
+}
+
+.container {
+    width: 100%;
+    height: 300px;
+    background-color: var(--color5);
+}
+
+/* Default design nav - Final */
+
+
+/* Default design formulario - Final */
+
+#Formulario {
+    width: 100%;
+} 
+
+.container__Formulario__MarkI {
+    width: 100%;
+    padding: 6em 15em;
+}
+
+.container__Formulario__MarkI h2 {
+    text-align: start;
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.container__Formulario__MarkI hr {
+    border: 1px solid var(--color2);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.container__formulario__div__MarkI {
+    position: relative;
+    margin: 0 28%;
+    padding: 50px;
+    color: var(--color1);
+    background: linear-gradient(to right, #081E33, #3A5F8F);
+    border-radius: 10px;
+    border: 2px solid #000;
+}
+
+.container__formulario__div__MarkI img {
+    width: 50px;
+    border-radius: 500px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+    transform: rotate(340deg);
+    transition: all ease-in .3s;
+}
+
+.container__formulario__div__MarkI img:hover {
+    transform: scale(1.2);
+}
+
+.container__formulario__div__MarkI h3 {
+    color: #000;
+    font-weight: 800;
+    padding: 10px;
+    font-size: 1.2em;
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--color1);
+    margin-bottom: 30px;
+}
+
+.container__formulario__text__MarkI input, label, textarea {
+    display: block;
+}
+
+.container__formulario__text__MarkI label {
+    font-weight: 800;
+    font-size: 15px;
+    text-shadow: 5px var(--color1);
+    margin-bottom: 8px;
+} 
+
+.container__formulario__text__MarkI input,textarea {
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    color: var(--color1);
+    background-color: var(--color2);
+    border: 1px solid var(--color1);
+    outline: none;
+    margin-bottom: 20px;
+    transition: all ease-out .3s;
+}
+
+.container__formulario__text__MarkI textarea {
+    width: 100%;
+    padding: 15px;
+    font-family: 'Poppins';
+    height: 120px;
+    resize: none;
+}
+
+.container__formulario__text__MarkI input:focus {
+    border: 1px solid var(--color2);
+}
+
+.container__formulario__text__MarkI textarea:focus {
+    border: 1px solid var(--color2);
+}
+
+.container__formulario__text__MarkI button {
+    background-color: var(--color2);
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    padding: 8px;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    color: var(--color1);
+    transition: all ease-in-out .5s;
+    cursor: pointer;
+}
+
+.container__formulario__text__MarkI button:hover {
+    background-color: var(--color1);
+    color: #000;
+}
+
+/* Default design formulario - Final */
+
+
+/* Default design video - Inicio */
+
+#video__MarkI {
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.container__video__MarkI video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    object-fit: cover;
+}
+
+.overlay__video__MarkI {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+/* Default design video - Final */
+
+
+
+/* Default design encuentranos - Final */
+
+#Encuentranos {
+    width: 100%;
+    background: linear-gradient(var(--color1) 5%, var(--color5) 90%);
+}
+
+.container__Encuentranos__MarkI {
+    padding: 5em 10em;
+}
+
+.cotainer__encuentranos__div__MarkI {
+    display: flex;
+    align-items: center;
+}
+
+.container__Encuentranos__MarkI hr {
+    border: 1px solid var(--color2);
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.cotainer__encuentranos__div__MarkI:first-child {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cotainer__encuentranos__div__MarkI h2 {
+    font-weight: 200;
+    font-size: 2em;
+}
+
+.cotainer__encuentranos__div__MarkI img {
+    width: 100px;
+    border-radius: 500px;
+    transition: all ease-in .5s;
+}
+
+.cotainer__encuentranos__div__MarkI img:hover {
+    rotate: 360deg;
+}
+
+.container__encuentranos__content__MarkI {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+
+.container__encuentranos__content__MarkI p {
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.container__encuentranos__content__MarkI iframe {
+    margin: 20px 0;
+    width: 550px;
+    height: 60vh;
+    border: 2px solid var(--color2);
+    border-radius: 10px;
+    outline: none;
+}
+
+.container__encuentranos__content__MarkI iframe:focus {
+    outline: var(--color2);
+}
+
+/* Default design encuentranos - Final */
+
+
+/* Default design footer - Inicio */
+
+#footer__MarkI {
+    background-color: var(--color2);
+    color: var(--color1);
+    padding: 20px;
+    font-weight: 200;
+}
+
+.footer__p__MarkI {
+    font-size: 10px;
+    letter-spacing: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main___ul__footer__MarkI {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 16%;
+    margin-bottom: 2%;
+}
+
+.sub__li__footer__MarkI ul {
+    list-style: none;
+}
+
+.sub__li__footer__MarkI p {
+    font-size: 1em;
+    padding: 0 0 10px 0;
+    letter-spacing: 2px;
+    text-decoration: underline;
+    text-underline-offset: 8px;
+}
+
+.sub__li__footer__MarkI li {
+    padding: 4px 0;
+}
+
+.sub__li__footer__MarkI img {
+    width: 150px;
+    border-radius: 500px;
+    transition: all ease-in .5s;
+}
+
+.sub__li__footer__MarkI img:hover {
+    transform: scale(1.2);
+}
+
+.sub__li__footer__MarkI:first-child li a {
+    font-family: 'Poppins';
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color1);
+    padding: 0 15px;
+}
+
+.sub__li__footer__MarkI:first-child li i {
+    transition: all ease-in-out .3s;
+}
+
+.sub__li__footer__MarkI:first-child li i:hover {
+    color: var(--color5);
+    transform: scale(1.2);
+}
+
+.sub__li__footer__MarkI:first-child li a:hover {
+    color: var(--color5);
+}
+
+.sub__li__footer__MarkI:last-child li a {
+    font-size: 12px;
+    text-decoration: none;
+    color: var(--color1);
+    transition: all ease-in-out .3s;
+}
+
+.sub__li__footer__MarkI:last-child li a:hover {
+    font-size: 15px;
+    color: var(--color5);
+}
+
+/* Default design footer - Final */
+

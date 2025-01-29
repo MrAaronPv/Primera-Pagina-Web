@@ -1,0 +1,688 @@
+/* Nav Responsive design */
+
+@media (max-width: 1280px) {
+    /* Nav responsive inicia acá */
+
+    #nav__MarkI {
+        font-size: 15px;
+    }
+    .nav__ul__MarkI li:last-child a {
+        font-size: 15px;
+    }
+
+    /* Nav responsive termina acá */
+}
+
+@media (max-width: 1024px) {
+    /* Nav responsive inicia acá */
+    #nav__markI {
+        font-size: 13px;
+    }
+    .nav__ul__li__markI {
+        margin: 0 4em;
+    }
+    .nav__ul__MarkI a img {
+        width: 70px;
+        height: 70px;
+    }
+    .nav__ul__MarkI li:last-child a {
+        font-size: 13px;
+    }
+    /* Nav responsive termina acá */
+}
+
+@media (max-width: 950px) {
+    /* Nav responsive inicia acá */
+    #nav__markI {
+        font-size: 10px;
+    }
+    .nav__ul__li__markI {
+        margin: 0 3em;
+    }
+    .nav__ul__MarkI a img {
+        width: 60px;
+        height: 60px;
+    }
+    .nav__ul__MarkI li:last-child a {
+        font-size: 10px;
+    }
+    /* Nav responsive termina acá */
+}
+
+@media (max-width: 768px) {
+    /* Nav responsive inicia acá */
+    #nav__MarkI {
+        width: 100%;
+        height: 80px;
+        position: relative;
+        
+        z-index: 2;
+    }
+    .nav__a__tittle__MarkI {
+        font-size: 1em;
+        position: absolute;
+        display: flex;
+    }
+    .label__check__input {
+        color: var(--color1);
+        display: block;
+    }
+    .nav__ul__MarkI {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        display: block;
+        border-top: 5px solid var(--color1);
+        background-color: var(--color2);
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 0 10px 0;
+        top: 80px;
+        left: -100%;
+        transition: all ease .5s;
+    }
+    .nav__ul__MarkI li {
+        display: block;
+        font-size: 18px;
+        line-height: 30px;
+        padding: 15px 0;
+    }
+    .nav__ul__li__markI__animation a {
+        border: 2px solid var(--color2);
+        border-radius: 500px;
+        padding: 5px 13px;
+        transition: all ease .5s;
+    }
+    .nav__ul__li__markI__animation a:hover{
+        border: 2px solid var(--color1);
+        border-radius: 500px;
+        padding: 5px 13px;
+    }
+    .nav__ul__li__markI__animation a::after {
+        display: none;
+    }
+    .nav__ul__li__markI a {
+        font-size: 20px;
+    }
+    .nav__ul__MarkI li:last-child a {
+        font-size: 18px;
+    }
+    #check:checked ~ .nav__ul__MarkI {
+        left: 0;
+    }
+
+    /* Nav responsive termina acá */
+}
+
+@media (max-width: 450px) {
+    /* Nav responsive inicia acá */
+    #nav__p__MarkI {
+        position: relative;
+        display: flex;
+    }
+    .nav__a__MarkI {
+        font-size: 15px;
+    }
+    .nav__ul__li__markI a {
+        font-size: 13px;
+    }
+    .nav__ul__MarkI li:last-child a {
+        font-size: 13px;
+    }
+    /* Nav responsive termina acá */
+}
+
+/* Footer Responsive design */
+
+@media (max-width: 1024px) {
+    /* Footer responsive inicia acá */
+    .footer__p__MarkI {
+        font-size: 8px;
+    }
+    .sub__li__footer__MarkI p {
+        font-size: 12px;
+    }
+    .sub__li__footer__MarkI li {
+        font-size: 10px;
+    } 
+    .main___ul__footer__MarkI {
+        margin: 0 10%;
+        margin-bottom: 2%;
+    }
+    .sub__li__footer__MarkI:last-child li a:hover {
+        font-size: 13px;
+    }
+    .sub__li__footer__MarkI img {
+        width: 120px;
+    }
+    /* Footer responsive termina acá */
+}
+
+@media (max-width: 768px) {
+    /* Footer responsive inicia acá */
+
+    .footer__p__MarkI {
+        font-size: 7px;
+    }
+    .sub__li__footer__MarkI p {
+        text-underline-offset: 4px;
+        font-size: 10px;
+    }
+    .main___ul__footer__MarkI {
+        margin: 0 12%;
+        margin-bottom: 3%;
+    }
+    .sub__li__footer__MarkI:first-child li a {
+        font-size: 9px;
+    }
+    .sub__li__footer__MarkI:last-child li a {
+        font-size: 9px;
+    }
+    .sub__li__footer__MarkI:first-child li i:hover {
+        transform: scale(1.1);
+    }
+    .sub__li__footer__MarkI:last-child li a:hover {
+        font-size: 11px;
+    }
+    .sub__li__footer__MarkI img {
+        width: 90px;
+    }
+    /* Footer responsive termina acá */
+}
+
+@media (max-width: 450px) {
+    /* Footer responsive inicia acá */
+    #footer__MarkI {
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .main___ul__footer__MarkI {
+        list-style: none;
+        display: inline-block;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .sub__li__footer__MarkI {
+        margin: 0 0 8% 0;
+    }
+    .sub__li__footer__MarkI ul {
+        padding: 0;
+    }
+    #footer__MarkI .footer__p__MarkI {
+        text-align: center;
+    }
+    .sub__li__footer__MarkI img {
+        width: 70px;
+    }
+    /* Footer responsive termina acá */
+}
+
+/* Header Responsive desgin */
+
+@media (max-width: 1280px) {
+    .header__container__MarkI img {
+        width: 300px;
+    }
+
+    .header__container__text__MarkI {
+        margin: 0 6%;
+    }
+
+    .header__container__text__MarkI h1 {
+        font-size: 2.4em;
+        letter-spacing: 6px;
+    }
+
+    .header__container__text__MarkI p {
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 1024px) {
+    .header__container__MarkI img {
+        width: 280px;
+    }
+
+    .header__container__MarkI {
+        padding: 8em 8em;
+    }
+
+    .header__container__text__MarkI h1 {
+        font-size: 1.5em;
+        letter-spacing: 6px;
+    }
+
+    .header__container__text__MarkI p {
+        letter-spacing: 3px;
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 950px) {
+    .header__container__MarkI {
+        padding: 8em 4em;
+    }
+
+    .header__container__MarkI img {
+        width: 220px;
+    }
+    
+    .header__container__text__MarkI {
+        margin: 0 4%;
+    }
+
+    .header__container__text__MarkI h1 {
+        font-size: 1.4em;
+        letter-spacing: 6px;
+    }
+
+    .header__container__text__MarkI p {
+        letter-spacing: 3px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__container__MarkI {
+        padding: 6em 4em;
+    }
+    
+    .header__container__MarkI img {
+        width: 200px;
+    }
+    
+    .header__container__text__MarkI {
+        margin: 0 4%;
+    }
+    
+    .header__container__text__MarkI h1 {
+        font-size: 1.4em;
+        letter-spacing: 6px;
+    }
+    
+    .header__container__text__MarkI p {
+        letter-spacing: 3px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 450px) {
+    #header__MarkI {
+        color: var(--color2);
+        font-weight: 400;
+    }
+    
+    .header__container__MarkI {
+        display: inline-block;
+        padding: 6em 4em;
+    }
+    .header__container__MarkI img {
+        display: block;
+        margin: 0 auto;
+        width: 240px;
+    }
+    .header__container__text__MarkI {
+        margin: 0 4%;
+        margin-top: 35px;
+    }
+    .header__container__text__MarkI h1 {
+        font-size: 1.4em;
+    }
+    .header__container__text__MarkI h1::after {
+        height: 1px;
+    }
+    .header__container__text__MarkI h1::after {
+        width: 50%;
+    }
+    
+    .header__container__text__MarkI p {
+        letter-spacing: 3px;
+        font-size: 13px;
+    }
+}
+
+/* Nosotros Responsive desgin */
+
+@media (max-width: 1280px) {
+    .nosotros__container__MarkI {
+        padding:  8em 8em;
+        padding-bottom: 5em;
+    }   
+    .nosotros__container__MarkI h2 {
+        font-size: 1.4em;
+    }
+    .nosotros__div1__MarKI img {
+        width: 300px;
+    }
+    .nosotros__div__top__MarkI {
+        padding-right: 8em;
+    }
+    .nosotros__div__top__MarkI p {
+        font-size: 14px;
+        padding-bottom: 8px;
+    }
+    .nosotros__div2__MarKI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .nostros__card__MarkI h3 {
+        font-size: 10px;
+    }
+    .nostros__card__MarkI img {
+        width: 150px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .nosotros__container__MarkI {
+        padding:  5em 5em;
+        padding-bottom: 5em;
+    }   
+    .nosotros__container__MarkI h2 {
+        font-size: 1.4em;
+    }
+    .nosotros__div1__MarKI img {
+        width: 280px;
+    }
+    .nosotros__div__top__MarkI {
+        padding-right: 5em;
+    }
+    .nosotros__div__top__MarkI p {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    .nosotros__div2__MarKI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .nostros__card__MarkI h3 {
+        font-size: 10px;
+    }
+    .nostros__card__MarkI img {
+        width: 140px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .nosotros__container__MarkI {
+        width: 100%;
+        padding: 4em;
+    }   
+    .nosotros__container__MarkI h2 {
+        font-size: 1.4em;
+    }
+    .nosotros__div1__MarKI {
+        display: inline-block;
+    }
+    .nosotros__div1__MarKI img {
+        display: block;
+        margin: 0 auto;
+        width: 220px;
+    }
+    .nosotros__div1__MarKI img:hover {
+        transform: scale(1.1);
+    }
+    .nosotros__div__top__MarkI {
+        padding-right: 5em;
+    }
+    .nosotros__div__top__MarkI p {
+        font-size: 12px;
+        padding-bottom: 8px;
+    }
+    .nosotros__div__top__MarkI p:last-child {
+        padding-bottom: 40px;
+    }
+    .nosotros__div__container__MarkI {
+        width: 100%;
+        display: block;
+    }
+    .nostros__card__MarkI {
+        margin-bottom: 10px;
+    }
+    .nostros__card__MarkI:hover {
+        transform: scale(0.9);
+    }
+    .nosotros__div1__MarKI hr {
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .nosotros__div2__MarKI hr {
+        width: 38%;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .nostros__card__MarkI h3 {
+        font-size: 10px;
+    }
+    .nostros__card__MarkI img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .nosotros__container__MarkI {
+        padding: 3em;
+    }   
+    .nosotros__container__MarkI h2 {
+        font-size: 1.2em;
+    }
+    .nosotros__div1__MarKI img {
+        width: 200px;
+    }
+    .nosotros__div__top__MarkI p {
+        font-size: 12px;
+    }
+    .nosotros__div2__MarKI hr {
+        width: 80%;
+    }
+    .nostros__card__MarkI h3 {
+        font-size: 10px;
+    }
+    .nostros__card__MarkI img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+}
+
+
+
+/* Catalogo Responsive desgin */
+
+@media (max-width: 1024px) {
+    .catalogo__container__MarkI {
+        padding: 3em;
+    }
+    .catalogo__div1__MarkI {
+        margin-bottom: 20px;
+    }
+    .catalogo__div1__MarkI img {
+        width: 150px;
+    }  
+    .catalogo__div1__MarkI img:hover {
+        transform: scale(1.2);
+    }
+    .catalogo__div1__MarkI hr {
+        width: 78%;
+    }
+    .catalogo__div2__MarkI {
+        width: 100%;
+        padding: 20px;
+    }
+    .catalogo__div2__MarkI h2 {
+        font-size: 2em;
+    }
+    .catalogo__div2__MarkI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .catalogo__cards__Pag__MarkI img {
+        width: 200px;
+    }
+    .catalogo__card___MarkI {
+        margin: 0 50px;
+    }
+    .catalogo__card___MarkI p {
+        padding: 0 3%;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    .catalogo__card___a___MarkI {
+        margin-top: 20px;
+        padding: 6px;
+    }
+    .catalogo__card___a___MarkI a {
+        font-size: 1em;
+    }
+    .catalogo__link__MarkI {
+        margin: 0px 30%;
+        margin-top: 50px;
+        padding: 20px;
+    }
+    .catalogo__link__MarkI a {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 950px) {
+    .catalogo__container__MarkI {
+        padding: 2em;
+    }
+    .catalogo__div1__MarkI {
+        margin-bottom: 20px;
+    }
+    .catalogo__div1__MarkI img {
+        width: 130px;
+    }  
+    .catalogo__div1__MarkI img:hover {
+        transform: scale(1.2);
+    }
+    .catalogo__div1__MarkI hr {
+        width: 75%;
+    }
+    .catalogo__div2__MarkI {
+        width: 100%;
+    }
+    .catalogo__div2__MarkI h2 {
+        font-size: 1.8em;
+    }
+    .catalogo__div2__MarkI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .catalogo__cards__Pag__MarkI {
+        display: inline-block;
+    }
+    .catalogo__cards__Pag__MarkI img {
+        width: 180px;
+        border-bottom: none;
+        transition: all ease-out .5s;
+    }
+    .catalogo__card___MarkI {
+        margin: 0 40px;
+        border-bottom: 2px solid var(--color2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalogo__card___MarkI:last-child {
+        border-bottom: none;
+    }
+    .catalogo__card___MarkI p {
+        margin: 0 5%;
+        font-size: 13px;
+    }
+    .catalogo__card___a___MarkI {
+        width: 70%;
+        padding: 10px;
+        border-radius: 15px;
+        background-color: var(--color6);
+        transition: all ease-in-out .5s;
+    }
+    .catalogo__card___a___MarkI a {
+        font-size: 13px;
+    }
+    .catalogo__link__MarkI {
+        margin: 0px 20%;
+        margin-top: 50px;
+        padding: 10px;
+    }
+    .catalogo__link__MarkI a {
+        font-size: 1.2em;
+    }
+}
+
+
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 450px) {
+    .catalogo__container__MarkI {
+        padding: 2em;
+    }
+    .catalogo__div1__MarkI {
+        margin-bottom: 20px;
+    }
+    .catalogo__div1__MarkI img {
+        width: 130px;
+    }  
+    .catalogo__div1__MarkI img:hover {
+        transform: scale(1.2);
+    }
+    .catalogo__div1__MarkI hr {
+        width: 50%;
+    }
+    .catalogo__div2__MarkI h2 {
+        font-size: 1.8em;
+    }
+    .catalogo__div2__MarkI hr {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .catalogo__cards__Pag__MarkI img {
+        width: 150px;
+        border-bottom: none;
+        transition: all ease-out .5s;
+    }
+    .catalogo__card___MarkI {
+        margin: 0 20px;
+        border-bottom: 2px solid var(--color2);
+        padding-bottom: 20px;
+        display: inline-block;
+    }
+    .catalogo__card___MarkI:last-child {
+        border-bottom: none;
+    }
+    .catalogo__card___MarkI p {
+        margin: 0 3%;
+        font-size: 13px;
+    }
+    .catalogo__card___a___MarkI {
+        margin: 0 auto;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 15px;
+    }
+    .catalogo__card___a___MarkI a {
+        font-size: 13px;
+        margin: 0 auto;
+    }
+    .catalogo__link__MarkI {
+        width: 100%;
+        margin: 0 auto;
+        padding: 15px;
+    }
+    .catalogo__link__MarkI a {
+        text-align: center;
+        font-size: 1em;
+    }
+}
+
+
+
